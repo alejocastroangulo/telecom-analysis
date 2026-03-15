@@ -63,12 +63,43 @@ The project follows these main steps:
 - Offer plan upgrades to customers who frequently exceed their limits.
 - Create targeted offers for high-value customers with intensive usage patterns.
 
+▶️ How to Run the Notebook
+
+You can execute the analysis in the following ways:
+
+#Option 1: Google Colab
+
+1.- Open the .ipynb notebook in Google Colab.
+
+2.- Upload the required datasets to the Colab environment.
+
+3.- Run the cells in order to reproduce the analysis.
+
+#Option 2: Jupyter Notebook (Local)
+
+1.- Clone this repository:
+git clone https://github.com/your-username/connectatel-analysis.git
+
+2.- Install the required libraries:
+pip install pandas numpy matplotlib seaborn
+
+3.- Open the notebook:
+jupyter notebook
+
+4.- Run the cells step by step.
+
+🔁 Reproducibility Guide
+
+To reproduce the analysis:
+
+1.- Download or clone the repository.
+
+2.- Place the datasets in the /data folder.
+
+3.- Open the notebook in Jupyter Notebook or Google Colab.
+
+4.- Run all the cells in order.
+
+5.- Review the generated charts, analysis, and conclusions.
 
 
-
-## 📁 Repository Structure
-
-├── data  
-├── notebooks  
-├── images  
-├── README.md
